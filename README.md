@@ -41,6 +41,7 @@ User.create(data).exec(function created (err, data) {
 
   if(err) {
     if(err.invalidAttributes) {
+      validator = require('sails-validation-messages');
       err.invalidAttributes = validator(User, err.invalidAttributes);
       return res.negotiate(err);
     }
