@@ -1,0 +1,25 @@
+{
+  "name": "sails-validation-messages",
+  "version": "0.0.0",
+  "description": "custom validation messages for sails js models",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:atinder90/sails-validation-messages.git"
+  },
+  "keywords": [
+    "sailsjs",
+    "validation",
+    "custom",
+    "messages"
+  ],
+  "author": "Atinder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atinder90/sails-validation-messages/issues"
+  },
+  "homepage": "https://github.com/atinder90/sails-validation-messages"
+}
